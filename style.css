@@ -1,0 +1,23 @@
+.storyimage{
+    width: 250px;
+}
+/* pseudo-selector */
+ /* targetting child */
+ /* 1. descendant selector */
+ .container .storyheading h1{
+    color: blueviolet;
+ }
+ /* Combinator */
+  /* 1. immediate child */
+  /* 2. immediate sibling */
+  /* 3. generic child */
+  ul>li{
+    color:blue;
+  }
+  li+li{
+   
+    background-color: rgb(247, 247, 109);
+  }
+  li~li{
+    background-color: blueviolet;
+  }
